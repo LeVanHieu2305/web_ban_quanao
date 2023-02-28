@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    /* background-color: aliceblue; */
+}
+
+.active {
+    display: block !important;
+}
+
+.container {
+    position: fixed;
+    background-color: #eeeeee;
+    width: 100%;
+    /* height: 5650px; */
+    margin: auto;
+    /* background-color: #ccc; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .free {
+    width: 100%;
+    /* height: 30%; */
+    background-color: #ADAAA0;
+    display: flex;
+    margin: auto;
+}
+
+.container .free span {
+    margin: 0 1% 0 8%;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.container .hea {
+    /* border-bottom: 1px solid gainsboro; */
+    box-shadow: 0px 5px 15px (rgba(0, 0, 0, 6%));
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.container .hea_2 {
+    line-height: 40px;
+    margin: auto;
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.container .hea .menu {
+    padding: 10px 0px;
+    /* background-color: #00ff7b; */
+}
+
+.container .hea .menu>ul.menu_c1 {
+    margin-left: -55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .hea .menu>ul.menu_c1>li {
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.container .hea .menu>ul.menu_c1>li>a {
+    /* background-color: #FC4851; */
+    text-decoration: none;
+    padding: 22px 20px;
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container .hea .menu>ul.menu_c1>li:hover>a {
+    /* background-color: #FC4851; */
+    /* color: #dbbca9; */
+    font-weight: 600;
+    text-decoration: underline;
+    -webkit-text-decoration: rgb(0, 0, 0) solid underline;
+    text-decoration: rgb(0, 0, 0) solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+}
+
+.container .hea .menu>ul.menu_c1>li>ul {
+    /* background-color: #FC4851; */
+    position: absolute;
+    top: 51px;
+    width: 300px;
+    padding: 0;
+    display: none;
+}
+
+.container .hea .menu>ul.menu_c1>li>ul>li {
+    padding: 10px 15px;
+    border-bottom: 1px solid beige;
+    background-color: #eeeeee;
+}
+
+.container .hea .menu>ul.menu_c1>li>ul>li:hover {
+    background-color: rgb(219, 188, 169);
+}
+
+.container .hea .menu>ul.menu_c1>li>ul>li>a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.container .hea .menu>ul.menu_c1>li:hover>ul {
+    display: block;
+}
+
+.container .hea .logo {
+    padding: 7px;
+    /* background-color: #0d00ff; */
+    margin: auto;
+}
+
+.container .hea .logo a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+    /* justify-content: center; */
+    margin-right: 140px;
+}
+
+.container .hea .icon {
+    margin-right: -10px;
+    padding: 10px 0px;
+    display: flex;
+    /* background-color: #0d00ff; */
+}
+
+.container .hea .icon span {
+    padding: 0px 16px;
+}
+
+.container .hea .icon span a {
+    text-decoration: none;
+}
+
+.container .hea .icon i {
+    color: black;
+}
+
+
+/* .container .hea .icon i:hover {
+    color: #dbbca9;
+} */
+
+.container .hea .icon span i {
+    /* display: block; */
+}
+
+.content {
+    padding-top: 101px;
+}
+
+.content .top_title {
+    display: flex;
+    width: 86%;
+    justify-content: center;
+    margin: 30px auto 0;
+}
+
+.content .top_title p {
+    margin: 0px 50px 0px;
+    padding: 0px 50px 10px 50px;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
+}
+
+.content .top_title .login {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.content .top_title p a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.line_ke {
+    width: 100%;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.bao_form {
+    width: 86%;
+    margin: auto;
+    /* background-color: rgb(134, 43, 43); */
+}
+
+form {
+    /* padding-top: 102px; */
+    font-family: 'Courier New', Courier, monospace;
+    width: 45%;
+    /* border: 1px solid gray; */
+    margin: 50px auto 0;
+}
+
+.form-group {
+    width: 100%;
+    margin: 35px 0;
+}
+
+.form-group input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #121314;
+    font-size: 15px;
+}
+
+.form-group2 {
+    margin: 35px 0;
+}
+
+.form-group2 input {
+    width: 100%;
+    height: 50px;
+    /* margin: 20px 0; */
+    background-color: #121314;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}

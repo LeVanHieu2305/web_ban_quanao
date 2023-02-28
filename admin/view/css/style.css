@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    margin: 30px auto 0;
+    background-color: #F0EEED;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: #000000;
+}
+
+nav ul li:hover a {
+    font-weight: 600;
+    text-decoration: underline;
+    -webkit-text-decoration: rgb(0, 0, 0) solid underline;
+    text-decoration: rgb(0, 0, 0) solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+}
+
+.main {
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+.main form {
+    margin: 20px 0;
+}
+
+.main h2 {
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: 50px;
+    border-top: 1px solid gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    /* background-color: rgb(219, 188, 169); */
+}
+
+.footer .navfoot {
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.footer ul {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .navicon {
+    /* background-color: brown; */
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+
+/* .container .footer .navcuoi {
+    background-color: rgb(0, 146, 73);
+} */
+
+.footer .navcuoi ul {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0;
+    gap: 30px;
+}
+
+.footer .navcuoi ul li {
+    font-size: 10px;
+}

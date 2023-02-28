@@ -1,0 +1,432 @@
+* {
+    margin: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    /* background-color: aliceblue; */
+}
+
+.active {
+    display: block !important;
+}
+
+.container {
+    position: fixed;
+    background-color: #eeeeee;
+    width: 100%;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* .container .free {
+    width: 100%;
+    background-color: #ADAAA0;
+    display: flex;
+    margin: auto;
+}
+
+.container .free span {
+    margin: 0 1% 0 8%;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 12px;
+} */
+
+.container .hea {
+    border-bottom: 1px solid gainsboro;
+    box-shadow: 0px 5px 15px (rgba(0, 0, 0, 6%));
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+.container .hea_2 {
+    line-height: 40px;
+    margin: auto;
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.container .hea .menu {
+    padding: 10px 0px;
+    /* background-color: #00ff7b; */
+}
+
+.container .hea .menu>ul.menu_c1 {
+    margin-left: -55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .hea .menu>ul.menu_c1>li {
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.container .hea .menu>ul.menu_c1>li>a {
+    /* background-color: #FC4851; */
+    text-decoration: none;
+    padding: 22px 20px;
+    color: #222;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* .container .hea .menu>ul.menu_c1>li>.follow_me {
+    text-decoration: underline;
+    -webkit-text-decoration: rgb(0, 0, 0) solid underline;
+    text-decoration: rgb(0, 0, 0) solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+} */
+
+.container .hea .menu>ul.menu_c1>li:hover>a {
+    /* background-color: #FC4851; */
+    /* color: #dbbca9; */
+    font-weight: 600;
+    text-decoration: underline;
+    -webkit-text-decoration: rgb(0, 0, 0) solid underline;
+    text-decoration: rgb(0, 0, 0) solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+}
+
+.container .hea .menu>ul.menu_c1>li>ul {
+    /* background-color: #FC4851; */
+    position: absolute;
+    top: 51px;
+    width: 300px;
+    padding: 0;
+    display: none;
+}
+
+.container .hea .menu>ul.menu_c1>li>ul>li {
+    padding: 10px 15px;
+    border-bottom: 1px solid beige;
+    background-color: #eeeeee;
+}
+
+.container .hea .menu>ul.menu_c1>li>ul>li:hover {
+    background-color: rgb(219, 188, 169);
+}
+
+.container .hea .menu>ul.menu_c1>li>ul>li>a {
+    text-decoration: none;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.container .hea .menu>ul.menu_c1>li:hover>ul {
+    display: block;
+}
+
+.container .hea .logo {
+    padding: 7px;
+    /* background-color: #0d00ff; */
+    margin: auto;
+}
+
+.container .hea .logo a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+    /* justify-content: center; */
+    margin-right: 140px;
+}
+
+.container .hea .icon {
+    margin-right: -10px;
+    padding: 10px 0px;
+    display: flex;
+    /* background-color: #0d00ff; */
+}
+
+.container .hea .icon span {
+    padding: 0px 16px;
+}
+
+.container .hea .icon span a {
+    text-decoration: none;
+}
+
+.container .hea .icon i {
+    color: black;
+}
+
+
+/* .container .hea .icon i:hover {
+    color: #dbbca9;
+} */
+
+.container .hea .icon span i {
+    /* display: block; */
+}
+
+.content {
+    padding-top: 62px;
+}
+
+.content .sale {
+    width: 100%;
+    background-color: #C20E0E;
+}
+
+.content .sale h1 {
+    font-size: 16px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 60px;
+}
+
+.content .sale h1 span {
+    padding: 0px 5px;
+}
+
+.content .sale h1 a {
+    text-decoration: underline;
+    -webkit-text-decoration: rgb(255, 255, 255) solid underline;
+    text-decoration: rgb(255, 255, 255) solid underline;
+    -webkit-text-underline-position: under;
+    text-underline-position: under;
+    color: white;
+    font-weight: 500;
+    padding: 0px 24px;
+}
+
+.gio {
+    width: 86%;
+    margin: 50px auto 0;
+    background-color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+
+table caption {
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+table .giohang tr {
+    display: flex;
+    width: 100%;
+}
+
+table thead tr th {
+    background-color: #ADAAA0;
+    color: white;
+}
+
+table tr td img {
+    width: 30%;
+}
+
+th,
+td {
+    border: 1px solid rgb(59, 59, 59);
+    text-align: center;
+    padding: 6px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img {
+    width: 20%;
+}
+
+table #tongdonhang td {
+    font-weight: 600;
+}
+
+.row_tom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_botton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.row_botton input {
+    width: 250px;
+    height: 40px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.row_botton input:hover {
+    background-color: #000000;
+    color: #F0EEED;
+    font-weight: 600;
+    border: 1px solid #000000;
+}
+
+.row_muangay {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.row_muangay input {
+    width: 180px;
+    height: 40px;
+    background-color: #C20E0E;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.line_ke {
+    margin: 30px auto 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.danhgiatop {
+    width: 86%;
+    margin: 50px auto 0;
+}
+
+.danhgia {
+    width: 100%;
+    /* background-color: rgb(198, 80, 80); */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.danhgia .tieude3 {
+    font-size: 18px;
+    /* margin-left: 16px; */
+    /* padding: 10px; */
+    text-align: center;
+    font-weight: 600;
+}
+
+.danhgia .thongtin {
+    /* background-color: yellowgreen; */
+    /* margin-top: 10px; */
+}
+
+.danhgia .thongtin .new {
+    padding: 10px 0px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.danhgia .thongtin .new .tt {
+    width: 50%;
+    margin: auto;
+}
+
+.danhgia .thongtin .new .tt input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    height: 38px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    /* margin-left: 114px; */
+}
+
+.danhgia .thongtin .bot {
+    margin: 30px auto 0;
+    width: 50%;
+}
+
+.danhgia .thongtin .bot input {
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 600;
+    /* margin-left: 114px; */
+}
+
+.footer {
+    border-top: 1px solid gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    background-color: white;
+}
+
+.footer .navfoot {
+    margin-top: 50px;
+    /* background-color: aqua; */
+}
+
+.footer ul {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.footer ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .navicon {
+    /* background-color: brown; */
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+
+/* .container .footer .navcuoi {
+    background-color: rgb(0, 146, 73);
+} */
+
+.footer .navcuoi ul {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0;
+    gap: 30px;
+}
+
+.footer .navcuoi ul li {
+    font-size: 10px;
+}
